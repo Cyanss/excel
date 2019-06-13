@@ -7,15 +7,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-/**
- * @ProjectName: posreview
- * @Package: com.zhitu.posreview.enums.user
- * @ClassName: SexTypeEnum
- * @Author: admin Cyan
- * @Description: 用户性别类型枚举
- * @Date: 2019/5/13 16:23
- * @Version: 1.0.0
- */
 @Getter
 public enum SexTypeEnum {
     DEFAULT(0,""),
