@@ -1,0 +1,20 @@
+server:
+    port: 8080
+    servlet:
+        context-path: /excel/v1
+
+spring:
+    jpa:
+        database: mysql
+        show-sql: true
+    application:
+        name: excel
+    resources:
+        static-locations: classpath:static/
+    datasource:
+        url: jdbc:mysql://127.0.0.1:3306/excel?useUnicode=true&characterEncoding=utf-8&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+        username: root
+        password: 2314
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+

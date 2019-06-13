@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "52913e55-50f6-4ef4-9bea-bd76ccf5dad2",
+		"name": "Excel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "个人信息导入",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "excel",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/excel/v1/excel/importUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"excel",
+						"v1",
+						"excel",
+						"importUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "毕业信息导入",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "excel",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/excel/v1/excel/importGraduate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"excel",
+						"v1",
+						"excel",
+						"importGraduate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
